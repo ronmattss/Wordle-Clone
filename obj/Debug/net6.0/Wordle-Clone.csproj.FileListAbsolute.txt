@@ -1,0 +1,15 @@
+E:\Programming_Stuff\C#\Wordle-Clone\bin\Debug\net6.0\Wordle-Clone.exe
+E:\Programming_Stuff\C#\Wordle-Clone\bin\Debug\net6.0\Wordle-Clone.deps.json
+E:\Programming_Stuff\C#\Wordle-Clone\bin\Debug\net6.0\Wordle-Clone.runtimeconfig.json
+E:\Programming_Stuff\C#\Wordle-Clone\bin\Debug\net6.0\Wordle-Clone.dll
+E:\Programming_Stuff\C#\Wordle-Clone\bin\Debug\net6.0\Wordle-Clone.pdb
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.csproj.AssemblyReference.cache
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.AssemblyInfoInputs.cache
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.AssemblyInfo.cs
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.csproj.CoreCompileInputs.cache
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.dll
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\refint\Wordle-Clone.dll
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.pdb
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\Wordle-Clone.genruntimeconfig.cache
+E:\Programming_Stuff\C#\Wordle-Clone\obj\Debug\net6.0\ref\Wordle-Clone.dll
