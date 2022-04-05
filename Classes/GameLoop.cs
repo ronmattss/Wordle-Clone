@@ -36,15 +36,41 @@ namespace WordleClone
 
         public void Play()
         {
+            var flag = true;
+            var attempts = rules.attempts;
             System.Console.WriteLine("Begin guessing!");
 
-            while (rules.attempts > 0)
+            while (attempts > 0 || !flag)
             {
                 var guess = ReadInput();
+                flag = IsCorrect(guess);
+                System.Console.WriteLine(flag);
                 guess = WordCorrectness(guess);
                 System.Console.WriteLine(guess);
-                rules.attempts--;
+
+                attempts = (flag != true) ? attempts-1 : 0;
+
+
             }
+
+
+            if (flag)
+            {
+                System.Console.WriteLine("You win!");
+            }
+            else
+            {
+                System.Console.WriteLine("You lose!");
+            }
+            System.Console.WriteLine("Word is: " + correctWord.GetWordString());
+
+
+
+        }
+
+        bool IsCorrect(string guess)
+        {
+            return correctWord.GetWordString() == guess;
         }
 
         public string ReadInput()
@@ -98,16 +124,15 @@ namespace WordleClone
             {
                 for (int j = 0; j < correctWord.GetWordString().Length; j++)
                 {
-                    Console.WriteLine(guess[i]+" == " + correctWord.GetWordString()[j]);
+                    Console.WriteLine(guess[i] + " == " + correctWord.GetWordString()[j]);
                     if (guess[j] == correctWord.GetWordString()[j])
                     {
                         guessedWord[j] = "/";
-                        
+
                     }
-                    // HOW
-                    else 
+                    else
                     {
-                        if(guessedWord[i] == "/"  || guessedWord[i] == "-")
+                        if (guessedWord[i] == "/" || guessedWord[i] == "-")
                         {
                             continue;
                         }
@@ -123,7 +148,7 @@ namespace WordleClone
                     }
                 }
 
-              
+
             }
 
             return BuildWord(guessedWord);

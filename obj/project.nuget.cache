@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "YtRk+XvHNUPe2qcLeE/qTTC5mPl7cx1Dqv13qAZSVT3ww8b6ZceQeZru74hlA88YW/lWOwJuSdIIFDGHYMVuRw==",
+  "dgSpecHash": "9VFgfAIrwEny95We68ePT0Vl3v4xyvSrPyoy7g+j7ggDVlzqrPr+GABUZqqJdnuNjJTW7qcYHQL1JMUjMkQ1ug==",
   "success": true,
   "projectFilePath": "E:\\Programming_Stuff\\C#\\Wordle-Clone\\Wordle-Clone.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Shade\\.nuget\\packages\\embedio\\3.4.3\\embedio.3.4.3.nupkg.sha512",
+    "C:\\Users\\Shade\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Shade\\.nuget\\packages\\spotifyapi.web\\6.2.2\\spotifyapi.web.6.2.2.nupkg.sha512",
+    "C:\\Users\\Shade\\.nuget\\packages\\spotifyapi.web.auth\\6.2.2\\spotifyapi.web.auth.6.2.2.nupkg.sha512",
+    "C:\\Users\\Shade\\.nuget\\packages\\unosquare.swan.lite\\3.0.0\\unosquare.swan.lite.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
